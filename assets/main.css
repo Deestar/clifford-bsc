@@ -410,7 +410,6 @@ aside {
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
-    margin-top: -50px;
   }
 
   img {
@@ -441,6 +440,14 @@ aside {
 
 footer p {
   text-align: left;
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 45px;
+    height: auto;
+    display: inline;
+  }
 }
 
 .footer .content .socials a {
